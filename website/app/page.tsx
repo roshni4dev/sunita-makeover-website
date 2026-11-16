@@ -347,7 +347,7 @@ export default function Home() {
                 type="date"
                 name="date"
                 required
-                min={new Date().toISOString().split("T")[0]}
+                min="2026-11-16"
                 className="w-full border rounded-lg p-3"
               />
             </div>
